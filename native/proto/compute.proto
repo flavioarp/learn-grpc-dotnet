@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package compute;
+
+service ComputeService {
+  rpc SumMatrix (MatrixRequest) returns (MatrixReply);
+}
+
+message MatrixRequest {
+  repeated double data = 1;
+  int32 rows = 2;
+  int32 cols = 3;
+}
+
+message MatrixReply {
+  double result = 1;
+}
