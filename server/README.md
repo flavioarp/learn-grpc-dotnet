@@ -6,6 +6,7 @@ Sample Armadillo-based service exposed via gRPC server
 sudo apt update
 sudo apt install -y \
   build-essential \
+  gdb \
   cmake \
   pkg-config \
   protobuf-compiler \
