@@ -42,7 +42,7 @@ g++ server.cpp compute.pb.cc compute.grpc.pb.cc \
   $(pkg-config --cflags --libs grpc++) \
   $(pkg-config --cflags --libs protobuf) \
   -larmadillo \
-  -o compute_server
+  -o server
 ```
 
 ## Deploy
