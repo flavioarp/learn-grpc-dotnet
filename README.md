@@ -4,10 +4,10 @@ Sample project on how to expose C++ code via gRPC to a .NET API.
 
 ## Dependencies
 
-*.NET SDK* >= 10 <br/>
-*Grpc.Net.Client* >= 3.33.4 <br/>
-*Google.Protobuf* >= 2.76.0 <br/>
-*Grpc.Tools* >= 2.76.0 <br/>
+.NET SDK *>= 10* <br/>
+Grpc.Net.Client *>= 3.33.4* <br/>
+Google.Protobuf *>= 2.76.0* <br/>
+Grpc.Tools *>= 2.76.0* <br/>
 
 ### Get .NET SDK
 
