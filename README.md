@@ -1,4 +1,4 @@
-# learn-dotnet-grpc-cpp
+# learn-grpc-dotnet
 
 Sample project on how to expose C++ code via gRPC to a .NET API.
 
